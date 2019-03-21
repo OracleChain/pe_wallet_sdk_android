@@ -6,30 +6,7 @@
 
 ## 导入
 
-### 方式一：
-
-1.在根目录的build.gradle中添加:
-
-```
-allprojects {
-   repositories {
-	        …
-          maven { url 'https://jitpack.io' }
-   }
-}
-```
-
-2.在app下的build.gradle中添加:
-
-```
-dependencies {
-    implementation 'com.github.oraclechain:pe_wallet_sdk_android:1.0.0'
-}
-```
-
-### 方式二：
-
-1:下载 [peopensdk.aar]()
+1:下载 [peopensdk.aar](https://github.com/OracleChain/pe_wallet_sdk_android/blob/master/peopensdk.aar)
 
 2:导入project下的app中的libs中编译
 
