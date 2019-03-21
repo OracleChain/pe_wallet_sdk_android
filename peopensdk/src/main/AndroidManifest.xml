@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pocketeco.sample.peopensdk">
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".PEAssistActivity"
+            android:exported="true" />
+    </application>
+</manifest>
