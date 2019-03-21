@@ -29,9 +29,27 @@ dependencies {
 
 ### 方式二：
 
-1:下载 [pe_open_sdk.jar]()
+1:下载 [peopensdk.aar]()
 
-2:导入project下的app中的libs中编译即可
+2:导入project下的app中的libs中编译
+
+3.在app下的build.gradle中添加:
+
+```
+android {  
+    ...
+     repositories{
+        flatDir(dirs: 'libs')
+    } 
+}  
+  
+dependencies {  
+    ...
+   implementation(name:'peopensdk',ext:'aar') 
+}
+```
+
+### 
 
 ## 使用
 
